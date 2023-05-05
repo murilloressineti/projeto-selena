@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #F28585;
+    --cor1: #F2C6C2;
+    --cor2: #F2E8DF;
+    --cor3: #F2B263;
+    --cor4: #86A69D;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: var(--cor2);
+}
+
+header {
+    background-color: var(--cor0);
+    min-height: 150px;
+    padding: 20px 0px 50px 0px;
+    position: relative;
+}
+
+header > h1 {
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);
+
+    position: absolute;
+    left: 52%;
+    top: 70%;
+            
+    transform: translate(-50%, -50%);
+}
+
+header > h1 > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > h1 > a:hover {
+    color: var(--cor3);
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 15%;
+    top: 85%;
+            
+    transform: translate(-50%, -50%);
+}
+
+img:hover {
+    transform: translate(-62px, -62px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+    transition: transform 0.1s, border 0.3s;
+}
+
+nav {
+    position: absolute;
+    left: 8%;
+    top: 29%;
+            
+    transform: translate(50%, 50%);
+}
+
+nav > a {
+    background-color: rgba(0, 0, 0, 0.404);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.158);
+}
+
+nav > a:hover {
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > h2 {
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+}
+
+main > p {
+    padding: 2px;
+    text-align: center;
+}
+
+main > p > a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main > p > a:hover {
+    color: var(--cor3);
+}
+
+section {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+footer > p > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
