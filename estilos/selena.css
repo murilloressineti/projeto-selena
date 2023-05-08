@@ -40,3 +40,23 @@ main {
     text-align: center;
 }
 
+main > article > p {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #F2B263;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 20px
+}
