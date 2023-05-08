@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #F28585;
+    --cor1: #F2C6C2;
+    --cor2: #F2E8DF;
+    --cor3: #F2B263;
+    --cor4: #86A69D;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: var(--cor2);
+}
+
+header {
+    background-color: var(--cor2);
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+main {
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+
